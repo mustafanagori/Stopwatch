@@ -1,0 +1,59 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(./image/watch.jpg);
+    background-size:100% 100%;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.display{
+    width: 400px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: gray;
+    padding: 2%;
+    background-image: url(./image/backgroundimg.jpg);
+    border-radius: 50PX;
+    border-color: red;
+}
+.display > div{
+    display: flex;
+    justify-content: space-between;
+}
+.display > div > h2{
+    
+    width: 32%;
+    text-align: center;
+}
+.display > div> button{
+    width: 32%;
+}
+.disable{
+    visibility: hidden !important;
+}
+.visible{
+    visibility: visible !important;
+}
+button{
+    background-color:mediumorchid;
+    font-size: 20px;
+    border-radius: 200px;
+  
+
+}
+button:active{
+    background-color: peru;
+}
+h2{
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
